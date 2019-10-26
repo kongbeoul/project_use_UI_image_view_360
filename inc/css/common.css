@@ -1,0 +1,539 @@
+@charset "utf-8";
+
+/* size */
+.inp64 {width:64px;}
+.inp69 {width:69px;}
+.inp80 {width:80px;}
+.inp105 {width:105px;}
+.inp112 {width:112px;}
+.inp118 {width:118px;}
+.inp158 {width:158px;}
+.inp160 {width:160px;}
+.inp169 {width:169px;}
+.inp189 {width:189px;}
+.inp215 {width:215px;}
+.inp220 {width:220px;}
+.inp230 {width:230px;}
+.inp245 {width:245px;}
+.inp252 {width:252px;}
+.inp255 {width:255px;}
+.inp259 {width:259px;}
+.inp300 {width:300px;}
+.inp350 {width:350px;}
+.inp361 {width:361px;}
+.inp370 {width:370px;}
+.inp400 {width:400px;}
+.inp470 {width:470px;}
+.inp528 {width:528px;}
+.inp688 {width:688px;}
+.inp750 {width:750px;}
+.inp1080 {width:1080px;}
+.inp100P {width:100%;}
+/* margin */
+.mt10 {margin-top:10px;}
+.mt30 {margin-top:30px;}
+
+.ml10 {margin-left:10px;}
+
+.pb0 {padding-bottom:0 !important;}
+
+/* ALIGN */
+.al {text-align:left !important;}
+.ac {text-align:center;}
+
+/* COLOR */
+.highLightsColor {color:#fe5f94;}
+
+.required {font-size:13px;font-weight:700;color:#e1406c;vertical-align:middle;}
+
+/* BACKGROUND */
+.bgColorTy01 {background-color:#f0f0f0;}
+
+/* Icon */
+.icoFullMenu {width:30px;height:30px;display:block;background:url(../images/ico/btn-fullmenu.png) 0 0 no-repeat;}
+.icoFullMenu:hover,
+.icoFullMenu.hover {background:url(../images/ico/btn-fullmenu-hover.png) 0 0 no-repeat;}
+
+.icoFullMenuClose {width:30px;height:30px;display:block;background:url(../images/ico/btn-fullmenu-close.png) 0 0 no-repeat;}
+.icoFullMenuClose:hover,
+.icoFullMenuClose.hover {background:url(../images/ico/btn-fullmenu-close-hover.png) 0 0 no-repeat;}
+
+.icoSearchClose {width:50px;height:50px;display:block;background:url(../images/ico/btn-search-close.png) 0 0 no-repeat;}
+.icoWordDelete {width:14px;height:14px;display:block;background:url(../images/ico/btn-word-delete.png) 0 0 no-repeat;}
+
+.icoWish {width:30px;height:30px;display:block;background:url(../images/ico/ico-wish.png) 0 0 no-repeat;}
+.icoWish:hover,
+.icoWish.hover {background:url(../images/ico/ico-wish-hover.png) 0 0 no-repeat;}
+.icoWishTyRect {width:50px;height:50px;display:block;background:url(../images/ico/btn-wish.png) 0 0 no-repeat;}
+
+.icoCart {width:30px;height:30px;display:block;background:url(../images/ico/ico-cart.png) 0 0 no-repeat;text-align:center;line-height:38px;}
+.icoCart > .count {display:none;font-size:14px;font-weight:700;color:#000;white-space:nowrap;}
+.icoCart:hover,
+.icoCart.hover {background:url(../images/ico/ico-cart-hover.png) 0 0 no-repeat;}
+.icoCart.active {background:url(../images/ico/ico-cart-activ.png) 0 0 no-repeat;}
+.icoCart.active > .count {display:block;}
+
+.icoCartThumb {width:50px;height:50px;display:block;background:url(../images/ico/btn-cart-thumb-off.png) 0 0 no-repeat;}
+.icoCartThumb.on,
+.icoCartThumb:hover {background:url(../images/ico/btn-cart-thumb-on.png) 0 0 no-repeat;}
+.icoWishThumb {width:50px;height:50px;display:block;background:url(../images/ico/btn-wish-thumb-off.png) 0 0 no-repeat;}
+.icoWishThumb.on,
+.icoWishThumb:hover {background:url(../images/ico/btn-wish-thumb-on.png) 0 0 no-repeat;}
+.icoDetailThumb {width:50px;height:50px;display:block;background:url(../images/ico/btn-detail-thumb-off.png) 0 0 no-repeat;}
+.icoDetailThumb.on,
+.icoDetailThumb:hover {background:url(../images/ico/btn-detail-thumb-on.png) 0 0 no-repeat;}
+
+.icoToTop {width:55px;height:55px;display:block;background:url(../images/ico/btn-to-top.png) 0 0 no-repeat;}
+.icoToTop:hover,
+.icoToTop.hover {background:url(../images/ico/btn-to-top-hover.png) 0 0 no-repeat;}
+
+.icoPrev {width:30px;height:30px;display:block;background:url(../images/ico/btn-previous.png) 0 0 no-repeat;}
+.icoNext {width:30px;height:30px;display:block;background:url(../images/ico/btn-next.png) 0 0 no-repeat;}
+
+.icoAllReset {width:71px;height:12px;display:block;background:url(../images/ico/btn-all-reset.png) 0 0 no-repeat;}
+.icoReset {width:18px;height:12px;display:block;background:url(../images/ico/btn-reset.png) 0 0 no-repeat;}
+
+.icoShareTyRect {width:50px;height:50px;display:block;background:url(../images/ico/btn-share.png) 0 0 no-repeat;}
+
+.icoInsta {width:55px;height:55px;display:block;background:url(../images/ico/btn-insta.png) 0 0 no-repeat;}
+.icoYoutubeBG {width:55px;height:55px;display:block;background:url(../images/ico/btn-youtube_02.png) 0 0 no-repeat;}
+.icoYoutubePlay {width:75px;height:75px;display:block;background:url(../images/ico/btn-yt-play.png) 0 0 no-repeat;}
+
+.icoUp {width:75px;height:32px;display:block;background:url(../images/ico/btn-up.png) 0 0 no-repeat;}
+.icoUp.on {background:url(../images/ico/btn-up-off.png) 0 0 no-repeat;}
+.icoDown {width:75px;height:32px;display:block;background:url(../images/ico/btn-down.png) 0 0 no-repeat;}
+.icoDown.on {background:url(../images/ico/btn-down-off.png) 0 0 no-repeat;}
+
+.ico360 {width:100px;height:50px;display:block;background:url(../images/ico/btn-360.png) 0 0 no-repeat;}
+.ico360.back {background:url(../images/ico/btn-360-back.png) 0 0 no-repeat}
+.ico360Prev {width:30px;height:30px;display:block;background:url(../images/ico/btn-360-prev.png) 0 0 no-repeat;}
+.ico360Next {width:30px;height:30px;display:block;background:url(../images/ico/btn-360-next.png) 0 0 no-repeat;}
+
+.icoInputMinus {width:33px;height:33px;display:block;background:url(../images/ico/btn-input-minus.png) 0 0 no-repeat;}
+.icoInputPlus {width:33px;height:33px;display:block;background:url(../images/ico/btn-input-plus.png) 0 0 no-repeat;}
+
+.icoMagnifying {width:30px;height:30px;display:block;background:url(../images/ico/ico-mag.png) 0 0 no-repeat;}
+.icoMagnifying.active {background:url(../images/ico/ico-mag-activ.png) 0 0 no-repeat;}
+
+.icoInstagram {width:30px;height:30px;display:block;background:url(../images/ico/btn-instagram.png) 0 0 no-repeat;}
+.icoYoutube {width:30px;height:30px;display:block;background:url(../images/ico/btn-youtube.png) 0 0 no-repeat;}
+.icoFacebook {width:30px;height:30px;display:block;background:url(../images/ico/btn-facebook.png) 0 0 no-repeat;}
+
+.icoEmail {width:30px;height:30px;display:block;background:url(../images/ico/ico-email.png) 0 0 no-repeat;}
+
+.icoNoData {width:45px;height:45px;display:block;background:url(../images/ico/ico-no-data.png) 0 0 no-repeat;}
+.icoNoDataCart {width:45px;height:44px;display:block;background:url(../images/ico/ico-no-data-cart.png) 0 0 no-repeat;}
+
+.icoStar {width:18px;height:18px;display:block;background:url(../images/ico/ico-star-off.png) 0 0 no-repeat;}
+.icoStar.star-point {transition:750ms background ease-out;}
+.icoStar.on {background:url(../images/ico/ico-star-on.png) 0 0 no-repeat;}
+.icoStar.on.pink,
+.icoStar.star-point-active {background:url(../images/ico/ico-star-on-pk.png) 0 0 no-repeat;}
+
+.icoSmallView {width:30px;height:30px;display:block;background:url(../images/ico/ico-sm-view.png) 0 0 no-repeat;}
+.icoSmallView.on {background:url(../images/ico/ico-sm-view-on.png) 0 0 no-repeat;}
+.icoBigView {width:30px;height:30px;display:block;background:url(../images/ico/ico-big-view.png) 0 0 no-repeat;}
+.icoBigView.on {background:url(../images/ico/ico-big-view-on.png) 0 0 no-repeat;}
+
+.icoShare {width:30px;height:30px;display:block;background:url(../images/ico/ico-share.png) 0 0 no-repeat;}
+.icoEllipsis {width:30px;height:30px;display:block;background:url(../images/ico/btn-dots.png) 0 0 no-repeat;}
+
+.icoPopClose {width:30px;height:30px;display:block;background:url(../images/ico/btn-pop-up-close.png) 0 0 no-repeat;}
+
+.icoCredit {width:40px;height:25px;display:block;background:url(../images/ico/ico-credit-card.png) 0 0 no-repeat;}
+.icoPaypal {width:40px;height:25px;display:block;background:url(../images/ico/ico-paypal.png) 0 0 no-repeat;}
+.icoMoneyorder {width:40px;height:25px;display:block;background:url(../images/ico/ico-moneyorder.png) 0 0 no-repeat;}
+.icoMaster {width:40px;height:25px;display:block;background:url(../images/ico/ico-master.png) 0 0 no-repeat;}
+.icoVisa {width:40px;height:25px;display:block;background:url(../images/ico/ico-visa.png) 0 0 no-repeat;}
+.icoDiscover {width:40px;height:25px;display:block;background:url(../images/ico/ico-discover.png) 0 0 no-repeat;}
+.icoAmex {width:40px;height:25px;display:block;background:url(../images/ico/ico-amex.png) 0 0 no-repeat;}
+
+.icoTooltip {width:21px;height:21px;display:block;background:url(../images/ico/ico-more-info.png) 0 0 no-repeat;}
+
+.icoSMDelete {width:14px;height:14px;display:block;background:url(../images/ico/btn-sm-delete.png) 0 0 no-repeat;}
+
+.icoPrint {width:30px;height:30px;display:block;background:url(../images/ico/btn-print.png) 0 0 no-repeat;}
+
+.icoBigPlus {width:40px;height:40px;display:block;background:url(../images/ico/ico-big-plus.png) 0 0 no-repeat;}
+
+.icoFacebookSM {width:30px;height:30px;display:block;background:url(../images/ico/ico-fb.png) 0 0 no-repeat;}
+.icoGoogleSM {width:30px;height:30px;display:block;background:url(../images/ico/ico-google.png) 0 0 no-repeat;}
+
+.icoYoutubeTy02 {width:30px;height:22px;display:block;background:url(../images/ico/ico-youtube-03.png) 0 0 no-repeat;}
+.icoInstagramTy02 {width:30px;height:30px;display:block;background:url(../images/ico/ico-instagram-02.png) 0 0 no-repeat;}
+
+.icoPause {width:30px;height:30px;display:block;background:url(../images/ico/btn-pause.png) 0 0 no-repeat;}
+.icoPause.on {background:url(../images/ico/btn-play.png) 0 0 no-repeat;}
+
+/* Icon Wrap */
+.icoWrapTy01 {font-size:0;}
+.icoWrapTy01 > * {display:inline-block;margin-left:10px;}
+.icoWrapTy01 > *:first-child {margin-left:0;}
+
+.icoWrapTy02 {font-size:0;}
+.icoWrapTy02 > * {display:inline-block;}
+
+/* Button  */
+.btnPrimary {display:block;padding:9px 11px;box-sizing:border-box;background-color:#000;border:2px solid #000;font-size:15px;font-weight:700;color:#fff;}
+.btnPrimary:hover,
+.btnPrimary.hover {background-color:#fff;color:#000;}
+.btnPrimaryTyNegative {display:block;padding:9px 11px;box-sizing:border-box;background-color:#fff;border:2px solid #000;font-size:15px;font-weight:700;color:#000;}
+.btnPrimaryTy02 {display:block;padding:7px 0;box-sizing:border-box;background-color:#333;font-size:14px;font-weight:500;color:#fff;text-align:center;}
+.btnPrimaryTy03 {display:block;padding:11px 0;box-sizing:border-box;background-color:#666;border:2px solid #666;font-size:15px;font-weight:700;color:#fff;}
+
+.btnGoogleSign,
+.btnFbSign {width:250px;display:block;padding:10px 0;box-sizing:border-box;border:1px solid #dedede;font-size:0;text-align:center;}
+.btnGoogleSign > *,
+.btnFbSign > * {display:inline-block;margin-left:5px;font-size:15px;font-weight:700;vertical-align:middle;}
+.btnGoogleSign > *:first-child,
+.btnFbSign > *:first-child {margin-left:0;}
+.btnSubmitTy01 {min-width:250px;display:inline-block;padding:19px 0;box-sizing:border-box;background-color:#e1406c;font-size:15px;font-weight:700;color:#fff;text-align:center;}
+.btnSubmitTy02 {min-width:250px;display:inline-block;padding:19px 0;box-sizing:border-box;background-color:#e58b64;font-size:15px;font-weight:700;color:#fff;text-align:center;}
+.btnEmailVerify {width:120px;height:35px;display:block;background:url(../images/temp/btn-email-verify.png) 0 0 no-repeat;}
+.btnEmailConfirm {width:85px;height:35px;display:block;background:url(../images/temp/btn-email-confirm.png) 0 0 no-repeat;}
+
+.btnClearHistory {min-width:132px;padding:5px 8px;box-sizing:border-box;position:relative;background-color:#555;border-radius:12px;line-height:1;}
+.btnClearHistory > span {display:inline-block;font-size:13px;color:#fff;vertical-align:middle;}
+
+/* INPUT */
+.inputBox {display:inline-block;position:relative;}
+.inputBox input {max-height:30px;display:block;padding:6px 0 7px 8px;box-sizing:border-box;font-size:15px;}
+.inputBox input::placeholder {font-size:14px;}
+.inputBox input::-webkit-input-placeholder {font-size:14px;}
+.inputBox input::-ms-input-placeholder {font-size:14px;}
+.inputBox input:-ms-input-placeholder {font-size:14px;}
+.inputBox input:-moz-placeholder {font-size:14px;}
+
+
+.inputBox input[type="file"] {width:0;height:0;position:absolute;top:0;left:0;opacity:0;visibility:hidden;}
+.inputBox input[type="file"] + label {min-height:30px;display:block;position:relative;background-color:#f4f4f4;border:1px solid #ccc;}
+.inputBox input[type="file"] + label > span {min-width:100px;display:block;position:absolute;top:0;right:0;}
+
+.inputBoxDark input {background-color:#787878;}
+.inputBoxDark input::placeholder {color:#bdbdbd;}
+.inputBoxDark input::-webkit-input-placeholder {color:#bdbdbd;}
+.inputBoxDark input::-ms-input-placeholder {color:#bdbdbd;}
+.inputBoxDark input:-ms-input-placeholder {color:#bdbdbd;}
+.inputBoxDark input:-moz-placeholder {color:#bdbdbd;}
+
+.inputBoxWhite input {background-color:#fff;border:1px solid #ccc;font-size:13px;}
+.inputBoxWhite input::placeholder {color:#888;}
+.inputBoxWhite input::-webkit-input-placeholder {color:#888;}
+.inputBoxWhite input::-ms-input-placeholder {color:#888;}
+.inputBoxWhite input:-ms-input-placeholder {color:#888;}
+.inputBoxWhite input:-moz-placeholder {color:#888;}
+
+.inputBoxGray input {background-color:#f2f2f2;font-size:13px;}
+.inputBoxGray input::placeholder {color:#666;}
+.inputBoxGray input::-webkit-input-placeholder {color:#666;}
+.inputBoxGray input::-ms-input-placeholder {color:#666;}
+.inputBoxGray input:-ms-input-placeholder {color:#666;}
+.inputBoxGray input:-moz-placeholder {color:#666;}
+
+.inputBoxVerify input[type="text"] {border:1px solid #ccc;font-size:13px;}
+.inputBoxVerify input[type="text"]:valid {letter-spacing:8px;}
+
+.inputBoxList > * {margin-top:10px;}
+.inputBoxList > *:first-child {margin-top:0;}
+
+
+.textareaBox {display:block;position:relative;}
+.textareaBox textarea {min-height:300px;display:block;padding:6px 0 7px 8px;box-sizing:border-box;background-color:#fff;border:1px solid #ccc;font-size:13px;}
+
+.checkBox {display:block;position:relative;}
+.checkBox input[type=checkbox] {width:0px;height:0px;display:block;position:absolute;top:0;left:0;opacity:0;visibility:hidden;}
+.checkBox input[type=checkbox] + label {font-size:0;}
+.checkBox input[type=checkbox] + label > span {display:inline-block;margin-left:10px;font-size:13px;}
+.checkBox input[type=checkbox] + label:before {content:"";width:15px;height:15px;display:inline-block;background:url(../images/ico/btn-checkbox.png) 0 0 no-repeat;}
+.checkBox input[type=checkbox]:checked + label:before {background:url(../images/ico/btn-checkbox-on.png) 0 0 no-repeat;}
+
+.radioBox {display:block;}
+.radioBox input[type="radio"] {width:0px;height:0px;display:block;position:absolute;top:0;left:0;opacity:0;visibility:hidden;}
+.radioBox input[type="radio"] + label {font-size:0;}
+.radioBox input[type="radio"] + label > span {display:inline-block;padding-right:10px;font-size:13px;vertical-align:middle;}
+.radioBox input[type="radio"] + label:before {content:"";width:15px;height:15px;display:inline-block;padding-right:10px;background:url(../images/ico/btn-radiobox-off.png) 0 0 no-repeat;vertical-align:middle;}
+.radioBox input[type="radio"]:checked + label:before {background:url(../images/ico/btn-radiobox-on.png) 0 0 no-repeat;}
+
+.selectBox {position:relative;}
+.selectBox .selectTxt {display:block;position:absolute;top:50%;left:11px;z-index:1;font-size:14px;color:#666;transform:translateY(-50%);white-space:nowrap;}
+.selectBox .select {max-height:30px;display:block;padding:5px 0 7px 8px;box-sizing:border-box;position:relative;background:#f4f4f4 url(../images/ico/ico-open.png) right top no-repeat;background-size:28px 28px;border:1px solid #ccc;color:#888;}
+.selectBox .select:focus {background-image:url(../images/ico/ico-close.png)}
+.selectBox .select:valid {color:#333;}
+.selectBox .select option:hover {text-decoration:underline;}
+/* .selectBox .select option:checked {font-weight:700;color:#333;} */
+
+.selectBoxTyShowLen .select {width:100px;display:inline-block;padding:5px 0 6px 8px;text-indent:44px;}
+.selectBoxTySort .select {width:190px;display:inline-block;padding:5px 0 6px 8px;text-indent:53px;}
+.selectBoxTyShowLen .select:valid,
+.selectBoxTySort .select:valid {font-weight:700;}
+
+.selectBoxWhite .select {background-color:#fff;border:1px solid #ccc;font-size:13px;}
+.selectBoxWhite .select:valid {color:#333;}
+.selectBoxWhite .select option {background-color:#f4f4f4;}
+
+.selectBoxGray {position:relative;}
+.selectBoxGray .select {background-color:#f2f2f2;border:none;font-size:13px;color:#666;}
+.selectBoxGray .select:valid {color:#333;}
+
+.searchBox {display:inline-block;position:relative;}
+.searchBox input[type="text"] {min-width:230px;max-height:30px;padding:7px 0 7px 22px;box-sizing:border-box;border:1px solid #999;border-radius:15px;font-size:14px;color:#d3d3d3;}
+.searchBox input[type="text"]::placeholder {color:#ccc;}
+.searchBox input[type="text"]::-webkit-input-placeholder {color:#ccc;}
+.searchBox input[type="text"]::-moz-placeholder {color:#ccc;}
+.searchBox input[type="text"]:-ms-input-placeholder {color:#ccc;}
+.searchBox input[type="text"]:-moz-placeholder {color:#ccc;}
+.searchBox input[type="text"] + .btnSearch {display:block;position:absolute;top:0;right:14px;}
+.searchBox input[type="text"]:valid + .btnSearch {background:url(../images/ico/ico-mag-activ.png) 0 0 no-repeat;}
+
+.inputBoxWrap input[type="text"],
+.inputBoxWrap input[type="tel"], 
+.inputBoxWrap .select {background-color:transparent;border:1px solid #ccc;}
+.inputBoxWrap .select {font-size:14px;}
+.inputBoxWrap .btnBox {display:flex;display:-webkit-flex;margin-top:15px;}
+.inputBoxWrap .btnBox > [class*="btn"] {width:auto;flex:none;-webkit-flex:none;padding:3px 11px;font-size:13px;}
+
+
+.radioBoxWrap .radioBox input[type="radio"] + label > .cardEndingNum {font-size:15px;font-weight:500;}
+
+
+/* SALE THUMBNAIL */
+[class*=saleThumbTy] {min-width:50px;display:inline-block;padding:1px 0;box-sizing:border-box;font-size:13px;color:#fff;text-align:center;}
+[class*=saleThumbTy] > .saleThumbCount {color:#fe557f;}
+.saleThumbTySale {background-color:#e52c2c;}
+.saleThumbTyCombo {background-color:#4a4ac8;}
+.saleThumbTyDay {background-color:#000;}
+.saleThumbTyBogo {background-color:#4a4ac8;}
+.saleThumbTyB2G1 {background-color:#c22acc;}
+.saleThumbTyB1G1 {background-color:#4a4ac8;}
+
+.saleThumbWrap {font-size:0;}
+.saleThumbWrap > [class^="saleThumbTy"] {display:inline-block;}
+
+/* PAGING */
+.pagingWrap {display:table;font-size:0;}
+.pagingWrap > button {width:30px;display:table-cell;font-size:18px;color:#888;text-align:center;vertical-align:middle;white-space:nowrap;}
+.pagingWrap > .paging {display:table-cell;font-size:0;vertical-align:middle;}
+.pagingWrap > .paging > * {width:30px;display:inline-block;font-size:18px;color:#888;text-align:center;vertical-align:middle;white-space:nowrap;}
+.pagingWrap > .paging >  strong {font-weight:700;color:#333;}
+
+/* CATEGORY */
+.categoryList .category dt > a {display:block;font-size:16px;font-weight:700;line-height:1.85;word-break:keep-all;}
+.categoryList .category dd > a {display:block;font-size:13px;line-height:1.85;}
+
+/* LOCATION */
+.locationWrap {margin:20px 0 16px;text-align:right;}
+.locationWrap > ul {font-size:0;}
+.locationWrap > ul > li {display:inline-block;margin-left:8px;line-height:2;vertical-align:middle;}
+.locationWrap > ul > li:first-child {margin-left:0;}
+.locationWrap > ul > li > span {display:inline-block;;margin-left:8px;font-size:12px;color:#888;vertical-align:middle;}
+.locationWrap > ul > li + li:before {content:">";display:inline-block;font-size:12px;color:#888;vertical-align:middle;}
+.locationWrap > ul > li:last-child > span {display:inline-block;color:#555;}
+
+/* BANNER */
+.banner > a {display:block;}
+.banner > a > img {width:100%;}
+
+/* FORM */
+[class*="formTy"] .btnWrap {margin:30px auto 0;text-align:center;}
+[class*="formTy"] .btnWrap > * {display:inline-block;margin-left:10px;}
+[class*="formTy"] .btnWrap > *:first-child {margin-left:0;}
+[class*="formTy"] .btnWrap [class*="btnPrimary"] {min-width:200px;min-height:45px;}
+
+.formTy01 {padding:30px 0;box-sizing:border-box;background-color:#f4f4f4;border-top:2px solid #000;}
+.formTy01 .readOnlyTxt {font-size:14px;}
+.formTy01 > ul {padding:0 30px;box-sizing:border-box;}
+.formTy01 .row {display:block;margin-top:15px;font-size:0;}
+.formTy01 .row:first-child {margin-top:0;}
+.formTy01 .row > .col {display:inline-block;vertical-align:middle;}
+.formTy01 .row > .col:nth-child(2n-1) {width:168px;font-size:14px;font-weight:500;color:#000;text-align:left;word-break:keep-all;}
+.formTy01 .row > .col:last-child > * {display:inline-block;margin-left:30px;vertical-align:middle;}
+.formTy01 .row > .col:last-child > *:first-child {margin-left:0;}
+.formTy01 .notice {margin-top:30px;font-size:13px;text-align:center;}
+.formTy01 .notice + .btnPrimary {margin:10px auto 0;}
+
+.formTy02 {text-align:center;}
+.formTy02 .row {margin-top:10px;font-size:0;}
+.formTy02 .row:first-child {margin-top:0;}
+.formTy02 .row > .col {display:inline-block;margin-left:63px;vertical-align:middle;}
+.formTy02 .row > .col:first-child {margin-left:0;}
+.formTy02 .row > .col:nth-child(2n-1) {font-size:14px;font-weight:500;color:#000;}
+
+
+/* MESSAGE BOX */
+.messageBox {padding:22px 30px;box-sizing:border-box;background-color:#e2e2e2;}
+.messageBox .tit {font-size:15px;font-weight:500;}
+.messageBox .radioBox {margin-top:15px;}
+.messageBox .radioBox input[type="radio"] + label > span {font-size:15px;}
+
+/* LIST TYPE */
+.listTyTit .tit {font-size:15px;font-weight:700;line-height:1.87;}
+.listTyTit .con {font-size:15px;line-height:1.87;word-break:keep-all;}
+
+.listTyNum .list {overflow:hidden;}
+.listTyNum .list .num {float:left;overflow:hidden;}
+.listTyNum .list .con {margin-left:20px;word-break:keep-all;}
+.listTyNum .list .con .tit {font-size:15px;}
+.listTyNum .list .con .tit + * {margin-top:10px;font-size:15px;line-height:1.67;}
+
+[class^="listTyDot"] .list {padding-left:15px;box-sizing:border-box;position:relative;}
+[class^="listTyDot"] .list:before {content:"";width:5px;height:5px;display:block;position:absolute;top:6px;left:0px;box-sizing:border-box;border:1px solid #0f0f0f;border-radius:50%;}
+[class^="listTyDot"] .list .con {word-break:keep-all;}
+.listTyDot01 .list:before {background-color:#000;}
+.listTyDot02 .list:before {background-color:#fff;}
+
+/* TAB */
+.tabWrap {width:100%;}
+.tabWrap .tabList {display:-webkit-flex;display:flex;position:relative;}
+.tabWrap .tabList .tab {-webkit-flex:1;flex:1;}
+.tabWrap .tab .btnTab {width:100%;height:100%;display:block;padding:30px 0;box-sizing:border-box;position:relative;background-color:#f4f4f4;;border-top:1px solid #f4f4f4;border-right:1px solid #f4f4f4;border-left:1px solid #f4f4f4;font-size:0;text-align:center;}
+.tabWrap .tab .btnTab > [class*="ico"] {display:inline-block;margin-right:10px;vertical-align:middle;}
+.tabWrap .tab .btnTab > .tabTit {font-size:18px;font-weight:500;vertical-align:middle;}
+.tabWrap .tab .btnTab .count {margin-top:10px;font-size:26px;font-weight:700;color:#f40d71;line-height:1;}
+.tabWrap .tab .btnTab .tabSubTxt {display:block;margin-top:5px;font-size:13px;color:#666;}
+.tabWrap .tab.on .btnTab {background-color:#fff;border-top:1px solid #333;border-right:1px solid #333;border-left:1px solid #333;}
+
+.tabWrap .tabConList .tabCon {display:none;padding:30px;box-sizing:border-box;}
+.tabWrap .tabConList .tabCon.on {display:block;}
+
+.tabTySNS .tab .btnTab {border-bottom:1px solid #333;}
+.tabTySNS .tab.on .btnTab {border-bottom:none;}
+.tabTySNS .tab .btnTab > .tabTit {font-size:20px;}
+
+/* TAB STYLES */
+.aside + .section .tab .btnTab {border-bottom:1px solid #333;}
+.aside + .section .tab .btnTab:before {content:'';width:1px;height:55%;display:block;position:absolute;top:50%;left:0;background-color:#ccc;transform:translateY(-50%);}
+.aside + .section .tab.on .btnTab {border-bottom:1px solid #fff;;}
+.aside + .section .tab:first-child .btnTab:before {content:none;}
+.aside + .section .tab.on .btnTab:before {content:none;}
+.aside + .section .tab.on + .tab .btnTab:before {content:none;}
+.aside + .section .tabCon {box-sizing:border-box;border-left:1px solid #333;border-right:1px solid #333;border-bottom:1px solid #333;}
+
+
+/* TABLE */
+[class^="tableTy"] .fieldColorTy01 {color:#e52c2c;}
+[class^="tableTy"] .fieldColorTy02 {color:#3399cc;}
+
+.tableTy01 table tr th > span,
+.tableTy01 table tr td > span {display:block;padding:20px 0;box-sizing:border-box;font-size:15px;text-align:center;}
+.tableTy01 table tr th {background-color:#efeffb;}
+.tableTy01 table tr td {border-bottom:1px solid #ccc;}
+
+.tableTy02 tr > th {font-size:15px;font-weight:700;line-height:1.87;text-align:left;}
+.tableTy02 tr > th:last-child {text-align:right;}
+.tableTy02 tr > td {font-size:15px;line-height:1.87;text-align:left;}
+.tableTy02 tr > td:last-child {text-align:right;}
+
+.tableTy03 tr > th,
+.tableTy03 tr > td  {padding:19px 0;box-sizing:border-box;font-size:15px;text-align:center;}
+.tableTy03 tr > th {background-color:#efeffb;}
+.tableTy03 tr > td > .available {font-weight:500;color:#f40d71;}
+.tableTy03 tbody tr > td {border-top:1px solid #ccc;}
+.tableTy03 tbody tr:first-child > td {border-top:none;}
+
+
+#slider {width:210px;height:7px;margin-top:30px;position:relative;background-color:#e1e1e1;border:none;border-radius:6px;}
+#slider .ui-slider-handle {width:15px;height:15px;position:absolute;top:50%;z-index:10;background:#000;border:none;border-radius:50%;transform:translate(-1px, -50%);outline:none;}
+#slider .ui-slider-handle > span {display:block;position:absolute;left:0;top:-15px;font-size:12px;color:#888;}
+#slider .ui-slider-handle > span > .percent {white-space:nowrap;}
+#slider .ui-slider-range {width:100%;height:7px;position:absolute;z-index:10;background-color:#000;}
+#slider + .sliderValueTxt {margin-top:11px;text-align:center;}
+#slider + .sliderValueTxt > * {font-size:13px;}
+
+.countWrap {width:140px;min-height:33px;margin-left:21px;position:relative;border:1px solid #ccc;box-sizing:border-box;text-align:center;}
+.countWrap > * {display:inline-block;vertical-align:middle;}
+.countWrap > *:first-child {position:absolute;top:50%;left:0;transform:translateY(-50%)}
+.countWrap > *:last-child {position:absolute;top:50%;right:0;transform:translateY(-50%)}
+.countWrap .count {font-size:22px;font-weight:700;line-height:35px;}
+
+.btnBox {display:flex;display:-webkit-flex;} 
+.btnBox > * {margin-right:10px;}
+.btnBox > *:last-child {margin-right:0;}
+.btnBox .btnPrimary {width:250px;}
+
+.optionBox .colorList {display:flex;display:-webkit-flex;flex-wrap:wrap;}
+.optionBox .colorList .color {margin-right:10px;margin-bottom:10px;position:relative;}
+.optionBox .colorList .color:before {content:'';width:100%;height:100%;display:block;position:absolute;top:0;left:0;border:4px solid #fe5f94;box-sizing:border-box;transition:550ms opacity ease-out;opacity:0;}
+.optionBox .colorList .color .bigImg {width:250px;display:none;position:absolute;top:0;left:85px;z-index:10;}
+.optionBox .colorList .color .bigImg > img {width:100%;}
+.optionBox .colorList .color:nth-child(6n-2) .bigImg,
+.optionBox .colorList .color:nth-child(6n-1) .bigImg,
+.optionBox .colorList .color:nth-child(6n) .bigImg {left:auto;right:85px;}
+.optionBox .colorList .color button {display:block;}
+.optionBox .colorList .color .addPrice {position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);font-size:12px;color:#fff;white-space:nowrap;opacity:0;transition:550ms opacity ease-out;}
+
+.optionBox .colorList .color:hover .bigImg {display:block;}
+
+.optionBox .colorList .color.active:before {opacity:1}
+.optionBox .colorList .color.active .addPrice {opacity:1;}
+.optionBox .colorList .color.active:hover .bigImg {display:none;}
+
+.btnUtilWrap {display:inline-block;}
+.btnUtilWrap > * {display:inline-block;vertical-align:middle;}
+.btnUtilWrap > .pagination > * {font-size:18px;color:#888;}
+.btnUtilWrap > .pagination > .current {font-weight:700;color:#333;}
+
+.tooltipBox {min-width:370px;display:none;padding:21px 30px;box-sizing:border-box;background-color:#fff;border:1px solid #333;}
+.tooltipBox .tooltip {margin-top:15px;font-size:0;}
+.tooltipBox .tooltip:first-child {margin-top:0;}
+.tooltipBox .tooltip > * {display:inline-block;margin-left:10px;vertical-align:middle;}
+.tooltipBox .tooltip > *:first-child {margin-left:0;}
+.tooltipBox .tooltip > .txt {width:160px;font-size:15px;}
+.tooltipBox .tooltip > .txt > span {font-weight:700;}
+
+.pointBox {position:relative;}
+.pointBox input[type="checkbox"] {width:0;height:0;position:absolute;top:0;left:0;opacity:0;visibility:hidden;}
+.pointBox label {width:130px;display:block;margin:0 auto;padding:11px 13px;box-sizing:border-box;position:relative;border:1px solid #ccc;text-align:left;transition:350ms background-color ease-out;}
+.pointBox label:after {content:'USE';width:50px;display:block;padding:13px 0;box-sizing:border-box;position:absolute;top:-1px;right:0;background-color:#fe5f94;font-size:13px;color:#fff;text-align:center;transition:350ms background-color ease-out;}
+.pointBox label > * {display:inline-block;font-size:14px;color:#e52c2c;transition:350ms color ease-out;}
+.pointBox label > .value {color:#555;}
+
+.pointBox input[type="checkbox"]:checked + label {background-color:#ccc;}
+.pointBox input[type="checkbox"]:checked + label > span {color:#fff;}
+.pointBox input[type="checkbox"]:checked + label:after {content:'RESET';background-color:#666;}
+
+.hashList {width:100%;display:table;table-layout:fixed;}
+.hashList .hash {display:table-cell;border-left:2px solid #ccc;box-sizing:border-box;text-align:center;vertical-align:middle;}
+.hashList .hash:first-child {border-left:none;}
+.hashList .hash > button {width:100%;display:block;padding:3px 0;box-sizing:border-box;font-size:18px;font-weight:500;color:#555;}
+.hashList .hash.on > button {color:#f40d71;}
+
+.hashList ~ .snsViewWrap {margin-top:30px;}
+
+
+/* 가이드 화면용 */
+[class*="popTy"].on {opacity:1;z-index:300;}
+.popTyAlert.on {position:relative;top:0;left:0;transform:translate(0, 0);}
+
+.popTyAlert {max-width:280px;}
+.popTyAlert .popTit {font-size:18px;font-weight:700;color:#333;}
+.popTyAlert .popTit + .popTxt {margin-top:15px;}
+.popTyAlert .popTxt {width:100%;font-size:15px;word-break:keep-all;}
+.popTyAlert .btnWrap {margin-top:30px;font-size:0;text-align:right;}
+.popTyAlert .btnWrap > [class*="btn"] {display:inline-block;margin-left:10px;padding:3px 10px;font-size:13px;vertical-align:middle;}
+.popTyAlert .btnWrap > [class*="btn"]:first-child {margin-left:0;}
+
+[class*="popTy"] {position:fixed;top:50%;left:50%;z-index:-1;background-color:#fff;transform:translate(-50%, -50%);overflow:hidden;opacity:0;}
+[class*="popTy"] .btnPopClose {position:absolute;top:10px;right:27px;}
+[class*="popTy"] .popInner {padding:30px 68px 30px 30px;box-sizing:border-box;}
+
+[class*="popTy"] .popConWrap {width:100%;font-size:0;overflow:hidden;}
+[class*="popTy"] .con {float:left;}
+[class*="popTy"] .con + .con {float:right;}
+[class*="popTy"] .con .conTit {font-size:18px;font-weight:700;}
+[class*="popTy"] .con .conSubTit {display:block;margin-top:15px;font-size:15px;font-weight:700;}
+[class*="popTy"] .con .conTit + *,
+[class*="popTy"] .con .conSubTit + * {margin-top:15px;}
+[class*="popTy"] .con .radioBoxWrap {width:252px;border:1px solid #ccc;box-sizing:border-box;overflow-x:hidden;overflow-y:auto;}
+[class*="popTy"] .radioBoxWrap li {padding:15px;box-sizing:border-box;position:relative;border-top:1px solid #ccc;}
+[class*="popTy"] .radioBoxWrap li:first-child {border-top:none;}
+[class*="popTy"] .radioBoxWrap .detail,
+[class*="popTy"] .radioBoxWrap .phoneNumber {display:block;margin-top:6px;padding-left:25px;box-sizing:border-box;font-size:15px;word-break:keep-all;}
+[class*="popTy"] .radioBoxWrap .btnDelete {position:absolute;top:50%;right:15px;transform:translateY(-50%);}
+[class*="popTy"] .inputBoxWrap .btnBox > [class*="btn"] {margin:0 auto;}
+
+[class*="popTy"] .btnBox > [class*="btn"] {padding:3px 11px;}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .selectBoxTyShowLen .select {padding-left:49px;box-sizing:border-box;}
+  .selectBoxTySort .select {padding-left:58px;box-sizing:border-box;}
+}
