@@ -1,0 +1,23 @@
+{
+  "name": "image_view_360",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kongbeoul/image_view_360.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kongbeoul/image_view_360/issues"
+  },
+  "homepage": "https://kongbeoul.github.io/image_view_360",
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}

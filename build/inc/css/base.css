@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+/* Font */
+@font-face {
+	font-family:Roboto;
+	src:url('../fonts/Roboto-Light.eot');
+	src:local(※),
+		url('../fonts/Roboto-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto-Light.woff') format('woff'),
+        url('../fonts/Roboto-Light.woff2') format('woff2'),
+		url('../fonts/Roboto-Light.otf') format('opentype');
+	font-weight: 300;
+	font-style: normal
+}
+@font-face {
+	font-family:Roboto;
+	src:url('../fonts/Roboto-Regular.eot');
+	src:local(※),
+		url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto-Regular.woff') format('woff'),
+        url('../fonts/Roboto-Regular.woff2') format('woff2'),
+		url('../fonts/Roboto-Regular.otf') format('opentype');
+	font-weight: 400;
+	font-style: normal
+}
+@font-face {
+	font-family:Roboto;
+	src:url('../fonts/Roboto-Medium.eot');
+	src:local(※),
+		url('../fonts/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto-Medium.woff') format('woff'),
+        url('../fonts/Roboto-Medium.woff2') format('woff2'),
+		url('../fonts/Roboto-Medium.otf') format('opentype');
+	font-weight: 500;
+	font-style: normal
+}
+@font-face {
+	font-family:Roboto;
+	src:url('../fonts/Roboto-Bold.eot');
+	src:local(※),
+		url('../fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto-Bold.woff') format('woff'),
+        url('../fonts/Roboto-Bold.woff2') format('woff2'),
+		url('../fonts/Roboto-Bold.otf') format('opentype');
+	font-weight: 700;
+	font-style: normal
+}
+@font-face {
+	font-family:LiberationSans;
+	src:url('../fonts/LiberationSans-Bold.eot');
+	src:local(※),
+		url('../fonts/LiberationSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/LiberationSans-Bold.woff') format('woff'),
+        url('../fonts/LiberationSans-Bold.woff2') format('woff2'),
+		url('../fonts/LiberationSans-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal
+}
+
+/* Reset */
+html,body {width:100%;height:100%;font-size:15px;color:#333;line-height:1.2;-webkit-text-size-adjust:none;}
+/* body {background:#282828;} */
+body,div,form,p,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,ol,li,em,p,span,textarea,pre,label,fieldset,th,td,button,a,input,select,hr, figure {margin:0;padding:0;font-family:Roboto, Arial, dotum;word-break:break-all;vertical-align:top;}
+h1,h2,h3,h4,h5,h6,strong,th {font-weight:normal;}
+em,span,strong,a,button,i {font-size:100%;}
+em,address {font-style:normal;}
+ol,ul,dl {list-style:none;}
+fieldset,img,hr,button {border:0;}
+img,input,textarea,select {vertical-align:top;}
+table {width:100%;border-collapse:collapse;border-spacing:0;table-layout:fixed;}
+legend,caption {overflow:hidden;width:0;height:0;padding:0;font-size:0;line-height:0;}
+a {color:#2c2c2c;text-decoration:none;}
+a:hover {text-decoration:none;}
+button {overflow:visible;margin:0;padding:0;background:none;border-radius:0;cursor:pointer;outline:none;}
+input,textarea,select {background:transparent;border:none;-moz-appearance:none;-webkit-appearance:none;appearance:none;outline:none;} /* 모바일 한정 */
+textarea {resize:none;}
+input[type=text]::-ms-clear,input[type=password]::-ms-clear,input[type=text]::-ms-reveal,input[type=password]::-ms-reveal {display:none;}
+select {outline:none;border:none;border-radius:0;}
+select::-ms-expand {display:none;}
+.blind {position:absolute;top:0;left:0;overflow:hidden;width:0;height:0;font-size:0;line-height:0;}
+.clfix:after {content:"";display:block;clear:both;visibility:hidden;height:0;}
